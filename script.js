@@ -1,13 +1,13 @@
-let display=document.getElementById('screen');
+let display = document.getElementById("screen");
 
-const wipe=() => {
-    display.value='';
-}
+const wipe = () => {
+	display.value = "";
+};
 
-const show=(n) => {
-    display.value+=n;
-}
+const show = (n) => {
+	display.value += n;
+};
 
-const calc=() => {
-    display.value=eval(display.value);
-}
+const calc = () => {
+	display.value = eval(display.value);
+};
